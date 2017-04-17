@@ -1,0 +1,40 @@
+    <!-- Contact Section -->
+    <section id="pubs" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Published articles</h2>
+                <p>Peer reviewed publications of group members.</p>
+                <!-- <p><a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </p> -->
+                <div align="left">
+                <p><ol reversed>
+	                 <li>Gokhale, C. S. and Hauert, C. (2016). Eco-evolutionary dynamics of social dilemmas, Theoretical Population Biology </li>
+	                 <li>Papkou, A., Gokhale, C. S., Traulsen, A. & Schulenburg, H. (2016). Host parasite co-evolution, Why changing population size matters, Zoology</li>
+	                 <li>Song, Y., Gokhale, C. S., Papkou, A., Schulenburg, H. & Traulsen, A. (2015). Host-parasite coevolution in populations of constant and variable size. BMC Evolutionary Biology, 15, 212.</li>
+	                 <li>Bauer, B. & Gokhale, C.S., Repeatability of evolution on epistatic landscapes. Scientific reports, 5, p.9607. (2015)</li>
+	                 <li>Gokhale, C. S., Reeves R. G. & Reed, F.A. (2014). BMC Evolutionary Biology.</li>
+	                 <li>Gokhale, C. S., & Traulsen, A. (2014). Evolutionary Multiplayer Games. Dynamic Games and Applications.</li>
+	                 <li>Gokhale, C. S., Papkou, A., Traulsen, A., & Schulenburg, H. (2013). Lotka-Volterra dynamics kills the Red Queen: population size fluctuations and associated stochasticity dramatically change host-parasite coevolution. BMC Evolutionary Biology, 13(1), 254.</li>
+	                 <li>Wu B, Traulsen A, Gokhale CS. Dynamic Properties of Evolutionary Multi-player Games in Finite Populations. Games. Multidisciplinary Digital Publishing Institute; 2013 May 6;4(2):182–99.</li>
+	                 <li>Wu B, Gokhale CS, Veelen M, Wang L. Interpretations arising from Wrightian and Malthusian fitness under strong frequency dependent selection. Ecology and Evolution. 2013.</li>
+	                 <li>Gokhale CS, Traulsen A. Mutualism and evolutionary multiplayer games: revisiting the Red King. Proceedings of the Royal Society B: Biological Sciences. 2012 Oct 11;279(1747):4611–6.</li>
+	                 <li>Han TA, Traulsen A, Gokhale CS. On equilibrium properties of evolutionary multi-player games with random payoff matrices. Theoretical Population Biology. 2012 Jun;81(4):264–72.</li>
+	                 <li>Wu B, Gokhale CS, Wang L, Traulsen A. How small are small mutation rates? J. Math. Biol. 2011 May 28;64(5):803–27.</li>
+	                 <li>Gokhale CS, Traulsen A. Strategy abundance in evolutionary many-player games with multiple strategies. JTB. 2011 Aug;283(1):180–91.</li>
+	                 <li>Altrock PM, Gokhale CS, Traulsen A. Stochastic slowdown in evolutionary processes. Phys. Rev. E. 2010 Jul;82(1 Pt 1):011925.</li>
+	                 <li>Gokhale CS, Traulsen A. Evolutionary games in the multiverse. Proceedings of the National Academy of Sciences. 2010 Mar 23;107(12):5500–4.</li>
+	                 <li>Bhardwaj A, Mukerji M, Sharma S, Paul J, Gokhale CS, Srivastava AK, et al. MtSNPscore: a combined evidence approach for assessing cumulative impact of mitochondrial variations in disease. BMC Bioinformatics. 2009;10(Suppl 8):S7.</li>
+	                 <li>Gokhale CS, Iwasa Y, Nowak MA, Traulsen A. The pace of evolution across fitness valleys. JTB. 2009 Aug;259(3):613–20.</li>
+	                 </ol>
+                 </p>
+               </div>
+                <ul class="list-inline banner-social-buttons">
+                    {% for network in site.social %}
+                    <li>
+                        <a href="{{ network.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ network.title }} fa-fw"></i> <span class="network-name">{{ network.title }}</span></a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </section>
