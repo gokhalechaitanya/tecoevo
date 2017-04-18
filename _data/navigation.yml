@@ -1,0 +1,8 @@
+- name: People
+  link: /people/
+- name: Publications
+  link: /publications/
+- name: Blog
+  link: /blog/
+- name: Contact
+  link: /contact/
